@@ -1,7 +1,14 @@
 .car-template-container {
     position: relative;
   }
-  
+
+  .toolbox{
+    img{
+        height: 50px;
+        width: 50px;
+    }
+  }
+
   .car-template {
     width: 100%; /* Adjust size as needed */
   }

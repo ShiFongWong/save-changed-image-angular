@@ -74,13 +74,14 @@ export class CarDiagramComponent {
 
   saveState() {
     const state = JSON.stringify(this.icons);
-    localStorage.setItem('canvasState', state);
+    console.log(state)
+    // localStorage.setItem('canvasState', state);
   }
 
   loadState() {
     const state = localStorage.getItem('canvasState');
     if (state) {
-      this.icons = JSON.parse(state);
+      // this.icons = JSON.parse(state);
     }
   }
 }

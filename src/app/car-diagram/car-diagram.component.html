@@ -1,7 +1,7 @@
 <div class="toolbox">
       <img *ngFor="let icon of iconList" [src]="icon.src" (click)="addIcon(icon.src)">
-    </div>
-    <div class="car-template-container">
+</div>
+<div class="car-template-container">
       <img src="assets\images\car-template-without-wheels-paper-crafts.png" class="car-template" alt="Car Template">
       <div class="icons-container">
         <img *ngFor="let icon of icons"
@@ -11,7 +11,7 @@
              (mousedown)="startDrag($event, icon)"
              (mousedown)="startResize($event, icon)">
       </div>
-    </div>
-    <button (click)="saveState()">Save</button>
-    <button (click)="loadState()">Load</button>
+</div>
+<button (click)="saveState()">Save</button>
+<button (click)="loadState()">Load</button>
     
