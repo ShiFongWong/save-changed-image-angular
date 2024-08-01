@@ -1,0 +1,20 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <path id="roof" d="M200 50 L600 50 Q650 50 650 100 L650 200 Q650 250 600 250 L200 250 Q150 250 150 200 L150 100 Q150 50 200 50 Z" 
+        fill="none" stroke="black" (click)="onPartClick('roof', $event)" />
+  
+  <path id="side-body" d="M100 400 L700 400 L700 500 L100 500 Z" 
+        fill="none" stroke="black" (click)="onPartClick('side-body', $event)" />
+  
+  <path id="side-window" d="M300 420 L500 420 L550 460 L250 460 Z" 
+        fill="none" stroke="black" (click)="onPartClick('side-window', $event)" />
+  
+  <path id="front" d="M50 300 L150 300 L150 350 L50 350 Z" 
+        fill="none" stroke="black" (click)="onPartClick('front', $event)" />
+  
+  <path id="rear" d="M650 300 L750 300 L750 350 L650 350 Z" 
+        fill="none" stroke="black" (click)="onPartClick('rear', $event)" />
+  
+  <path id="bottom" d="M200 550 L600 550 Q650 550 650 500 L650 450 Q650 400 600 400 L200 400 Q150 400 150 450 L150 500 Q150 550 200 550 Z" 
+        fill="none" stroke="black" (click)="onPartClick('bottom', $event)" />
+</svg>
